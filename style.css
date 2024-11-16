@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 186, 36 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div{
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+  
+   display: flex;
+
+}
+.div .dL{
+    width: 60%;
+
+}
+.div .dR{
+background-color: black;
+    width: 20%;
+    height: 100%;
+}
+.div .dL h1{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    
+}
+.div .dL .div-in1{
+    /* margin-top: 5vh; */
+    margin-left: 3vw;
+
+}
+.div-in1 button{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    width: 15vh;
+    height: 5vh;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.div-form{
+    display: flex;
+
+}
+.div-form .divform1 input{
+    text-decoration: none;
+    border: none;
+    margin-top: 3vh;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    
+}
+.div-form .divform1{
+    border-bottom: 0.3vh solid black;
+    margin-left: 3vw;
+    /* margin-top:3vh ; */
+ 
+}
+.div-form .divform1 i{
+    font-size: 1.8vw;
+    margin-right: 1vw;
+}
+.div-form2{
+    display: flex;
+
+}
+.div-form2 .divform2 input{
+    text-decoration: none;
+    border: none;
+    margin-top: 4vh;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    
+}
+.div-form2 .divform2{
+    border-bottom: 0.3vh solid black;
+    margin-left: 3vw;
+    /* margin-top:3vh ; */
+ 
+}
+.div-form2 .divform2 i{
+    font-size: 1.8vw;
+    margin-right: 1vw;
+}
+.aDiv{
+
+  
+    margin-left: 3vw;
+    margin-top: 8vh;
+}
+.aDiv a{
+    font-size: 2vw;
+    color: rgb(36, 36, 36);
+}
+.check{
+    margin-top: 4vh;
+    margin-left: 3vw;
+    display: flex;
+}
+.check input{
+    margin-right: 1vw;
+     width: 3vh;
+     height: 3vh;
+}
+.check p{
+    font-size: 3vh;
+    margin-right: 4vw;
+}
+.check button{
+    width: 25vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+}
+.dr{
+  
+    width: 40%;
+
+    display: flex;
+    /* justify-content: end; */
+    
+}
+
+.dr  img{
+    height: 50vh;
+    margin-top:10%;
+    
+
+
+}
